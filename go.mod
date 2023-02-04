@@ -1,4 +1,4 @@
-module chat_websockets
+module github.com/Striker87/websocket_chat
 
 go 1.20
 

@@ -1,13 +1,14 @@
 package main
 
 import (
-	"chat_websockets/chat"
 	"fmt"
 	"html/template"
 	"log"
 	"net/http"
 	"path/filepath"
 	"sync"
+
+	"github.com/Striker87/websocket_chat/chat"
 )
 
 const httpPort = "8080"
